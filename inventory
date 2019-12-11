@@ -4,17 +4,17 @@ nodes
 etcd
 
 [masters]
-172.31.1.185
+172.x.x.185
 
 [etcd]
-172.31.1.185
-172.31.1.186
-172.31.1.187
+172.x.x.185
+172.x.x.186
+172.x.x.187
 
 [nodes]
-172.31.1.185 openshift_node_group_name='node-config-master'
-172.31.1.186 openshift_node_group_name='node-config-compute'
-172.31.1.187 openshift_node_group_name='node-config-infra'
+172.x.x.185 openshift_node_group_name='node-config-master'
+172.x.x.186 openshift_node_group_name='node-config-compute'
+172.x.x.187 openshift_node_group_name='node-config-infra'
 
 
 [OSEv3:vars]
